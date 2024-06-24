@@ -37,22 +37,21 @@ const Home = () => {
       </div>
 
       {/* Carousel Container */}
-      <div className="flex justify-center items-center">
-        <Slider {...settings} className="w-full max-w-4xl">
-          <div className="flex justify-center">
-            <img src={closet1} alt="Clothing 1" className="object-contain" />
-          </div>
-          <div className="flex justify-center">
-            <img src={closet2} alt="Clothing 2" className="object-contain" />
-          </div>
-          <div className="flex justify-center">
-            <img src={closet3} alt="Clothing 3" className="object-contain" />
-          </div>
-          <div className="flex justify-center">
-            <img src={closet4} alt="Clothing 4" className="object-contain" />
-          </div>
-        </Slider>
-      </div>
+
+      <Slider {...settings} className="carousel-slider">
+        <div>
+          <img src={closet1} alt="Clothing 1" className="carousel-image" />
+        </div>
+        <div>
+          <img src={closet2} alt="Clothing 2" className="carousel-image" />
+        </div>
+        <div>
+          <img src={closet3} alt="Clothing 3" className="carousel-image" />
+        </div>
+        <div>
+          <img src={closet4} alt="Clothing 4" className="carousel-image" />
+        </div>
+      </Slider>
     </div>
   );
 };
