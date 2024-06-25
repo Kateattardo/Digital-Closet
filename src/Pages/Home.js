@@ -33,7 +33,7 @@ const Home = () => {
           clothes for various occasions like work, travel, and special events.
           Simultaneously, it serves as a vibrant marketplace for buying,
           selling, and trading clothes, promoting sustainable fashion practices.
-          Here is test for git hub.
+          Here is test for git hub. Second test for github.
         </p>
       </div>
 
